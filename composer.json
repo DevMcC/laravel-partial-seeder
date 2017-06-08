@@ -18,5 +18,10 @@
             "email": "sinbox.c@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DevMcC\\LaravelPartialSeeder\\": "src"
+        }
+    }
 }
