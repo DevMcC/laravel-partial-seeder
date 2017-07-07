@@ -2,9 +2,13 @@
 
 namespace DevMcC\LaravelPartialSeeder;
 
+use DevMcC\LaravelPartialSeeder\Commands\InstallPartialSeederCommand;
+use DevMcC\LaravelPartialSeeder\Commands\PartialSeederMakeCommand;
+use DevMcC\LaravelPartialSeeder\Commands\SeedPartialSeederCommand;
+use DevMcC\LaravelPartialSeeder\Commands\StatusPartialSeederCommand;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
-class ServiceProvider
+class ServiceProvider extends IlluminateServiceProvider
 {
     /**
      * Perform post-0registration booting of services.
@@ -25,7 +29,10 @@ class ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                Commands\MakeSeeder::class,
+                InstallPartialSeederCommand::class,
+                PartialSeederMakeCommand::class,
+                SeedPartialSeederCommand::class,
+                StatusPartialSeederCommand::class,
             ]);
         }
     }

@@ -1,6 +1,6 @@
 {
     "name": "devmcc/laravel-partial-seeder",
-    "description": "Only seed what you haven't seeded.",
+    "description": "Only seed what you haven't seeded yet.",
     "keywords": [
         "laravel",
         "seed",
@@ -11,7 +11,7 @@
     ],
     "license": "MIT License",
     "type": "library",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "DevMcC",
