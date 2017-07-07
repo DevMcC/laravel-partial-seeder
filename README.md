@@ -4,7 +4,7 @@ Only seed what you haven't seeded yet.
 
 
 # About
-This packages extends the seeding functionality with the addition of history control. This allows you to only run the seeders that you haven't seeded yet.
+This packages extends the seeding functionality with the addition of history control. This allows you to only run the seeders that you haven't run yet.
 
 
 
