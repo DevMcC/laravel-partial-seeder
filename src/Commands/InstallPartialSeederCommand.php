@@ -21,7 +21,7 @@ class InstallPartialSeederCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Installs the partial_seeds_history table';
+    protected $description = 'Creates the partial_seeds_history table';
 
     /**
      * The command constructor.
