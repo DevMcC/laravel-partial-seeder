@@ -7,7 +7,9 @@
         "seeds",
         "seeder",
         "database",
-        "history"
+        "history",
+        "partial seeder",
+        "laravel partial seeder"
     ],
     "license": "MIT License",
     "type": "library",
