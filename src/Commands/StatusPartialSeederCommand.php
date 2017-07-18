@@ -13,7 +13,7 @@ class StatusPartialSeederCommand extends Command
     use PartialSeedsHistoryTableUser;
 
     /**
-     * The console command name.
+     * The name and signature of the console command.
      *
      * @var string
      */
