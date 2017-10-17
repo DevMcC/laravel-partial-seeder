@@ -38,7 +38,7 @@ class PartialSeederMakeCommand extends SeederMakeCommand
      *
      * @return bool|null
      */
-    public function fire()
+    public function handle()
     {
         $name = $this->qualifyClass($this->getNameInput());
         $className = str::studly($name);

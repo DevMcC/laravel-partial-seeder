@@ -40,7 +40,7 @@ class InstallPartialSeederCommand extends Command
      *
      * @return void
      */
-    public function fire()
+    public function handle()
     {
         if (!$this->createHistoryTableIfNotExists()) {
             $this->output->writeln('<info>A history table was already created.</info>');
